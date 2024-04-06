@@ -1,3 +1,7 @@
+/**
+ * Layout file can be used if you have a component you want on every page.
+ */
+import Link from 'next/link'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
