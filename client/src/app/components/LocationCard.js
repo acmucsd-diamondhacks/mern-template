@@ -6,7 +6,7 @@ const LocationCard = ({image, locationName, rating, features}) => {
             <div className="locationImage">
                 <Image
                 src = {image}
-                alt = "Image of " + {locationName}
+                alt = {"Image of " + {locationName}}
                 />
                 <h5>{locationName}</h5>
                 <h6>{rating}</h6>
