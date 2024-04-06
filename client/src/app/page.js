@@ -1,12 +1,15 @@
+import React from 'react';
 import Image from 'next/image'
 import styles from './page.module.css'
+// import {useTicket} from 'react-router-dom';
+
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        {/* <button onClick></button> */}
         <p>
-          Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
